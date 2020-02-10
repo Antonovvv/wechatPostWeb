@@ -89,7 +89,7 @@
 				//否则从服务器请求，用code换取
 				this.getUser()
 			}
-			window.addEventListener('pagehide', () => {
+			window.addEventListener('pagehide', () => {//微信浏览器监听onbeforeunload事件无效，需要监听pagehide
 				sessionStorage.setItem('user', JSON.stringify(this.$store.state))
 			})
 		},

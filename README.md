@@ -1,29 +1,16 @@
-# firstweb
+## wechatPostWeb
 
-## Project setup
+### 介绍
+使用vue框架，vant组件库编写的图片托管demo，填了一些微信内网页的坑
+
+### 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+### 生产环境打包
+使用命令
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+或在vue项目管理`vue ui`中build。
